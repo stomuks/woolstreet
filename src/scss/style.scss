@@ -2,17 +2,51 @@
 @use './fonts' as *;
 @use './common' as *;
 
-button {
-	padding: 10px 20px;
-	background-color: #007bff;
-	color: white;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-}
+.header {
+	display: flex;
+	&__banner {
+	}
 
-body {
-	color: var(--3);
-	background-color: var(--2);
-	font-size: 1rem;
+	&__wrapper {
+	}
+
+	&__container {
+	}
+
+	&__content {
+	}
+
+	&__logo {
+	}
+
+	&__link {
+	}
+
+	&__menu {
+	}
+
+	&__list {
+	}
+
+	&__item {
+	}
+
+	&__tools {
+	}
+
+	&__links {
+	}
+}
+.banner {
+	&__container {
+	}
+
+	&__wrapper {
+	}
+
+	&__text {
+	}
+
+	&__link {
+	}
 }
