@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Vite Project</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<section class="header">
+				<div class="header__banner banner">
+					<div class="banner__container">
+						<div class="banner__wrapper">
+							<span class="banner__text"
+								>Зарегистрируйся в нашей бонусной программе и получи 500
+								приветственных бонусов</span
+							>
+							<a href="#" class="banner__link">Регистрация</a>
+						</div>
+					</div>
+				</div>
+				<header class="header__wrapper">
+					<div class="header__container">
+						<div class="header__content">
+							<div class="header__logo">
+								<a href="#" class="header__link"
+									><img src="/logo.svg" alt=""
+								/></a>
+							</div>
+							<nav class="header__menu">
+								<ul class="header__list">
+									<li class="header__item">
+										<a href="#" class="header__link">sale</a>
+									</li>
+									<li class="header__item">
+										<a href="#" class="header__link">Каталог</a>
+									</li>
+									<li class="header__item">
+										<a href="#" class="header__link">магазины</a>
+									</li>
+								</ul>
+							</nav>
+							<div class="header__tools">
+								<li class="header__item">
+									<a href="#" class="header__link">наш блог</a>
+								</li>
+								<div class="header__links">
+									<a href="#" class="header__link">
+										<img src="/magnifying-glass.svg" alt="" />
+									</a>
+									<a href="#" class="header__link">
+										<img src="/vk.svg" alt="" />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+			</section>
+			<section class="hero">
+				<div class="hero__swiper swiper">
+					<div class="swiper-wrapper hero__wrapper">
+						<div class="swiper-slide hero__slide">Slide 1</div>
+						<div class="swiper-slide hero__slide">Slide 2</div>
+						<div class="swiper-slide hero__slide">Slide 3</div>
+						...
+					</div>
+				</div>
+				<div class="hero__container">
+					<div class="hero__buttons">
+						<div class="swiper-hero-prev">
+							<svg class="icon">
+								<use xlink:href="#arrowleft"></use>
+							</svg>
+						</div>
+						<div class="swiper-hero-next">
+							<svg class="icon">
+								<use xlink:href="#arrowright"></use>
+							</svg>
+						</div>
+					</div>
+					<div class="hero__content">
+						<div class="hero__info">
+							<h1 class="hero__title">Повседневная элегантность</h1>
+							<p class="hero__text">
+								Новая коллекция уже доступна в наших магазинах
+							</p>
+						</div>
+						<a href="#" class="hero__btn btn--big btn--light"
+							>Cмотреть образы</a
+						>
+					</div>
+				</div>
+			</section>
+			<section class="popular">
+				<div class="popular__banner">
+					<div class="popular__container">
+						<div class="popular__row">
+							<span class="popular__pin">С нами стильно взрослеть</span>
+							<span class="popular__dot"></span>
+							<span class="popular__pin">Одежда 46 — 56 размера</span>
+						</div>
+					</div>
+				</div>
+				<div class="popular__content">
+					<div class="popular__head">
+						<h2 class="popular__title">Самое популярное</h2>
+						<div class="popular__buttons">
+							<div class="swiper-popular-prev">
+								<svg class="icon">
+									<use xlink:href="#arrowcircle"></use>
+								</svg>
+							</div>
+							<div class="swiper-popular-next">
+								<svg class="icon">
+									<use xlink:href="#arrowcircle"></use>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="swiper popular__swiper">
+						<div class="swiper-wrapper popular__wrapper">
+							<div class="popular__item swiper-slide item">
+								<div class="item__info">
+									<div class="item__img">
+										<img src="/image/popular1.png" alt="" />
+									</div>
+									<div class="item__wrapper">
+										<h3 class="item__title">Серый шерстяной джемпер</h3>
+										<span class="item__price">2 000 руб.</span>
+									</div>
+								</div>
+								<div class="item__text">
+									Новая коллекция уже доступна в наших магазинах
+								</div>
+							</div>
+							<div class="popular__item swiper-slide item">
+								<div class="item__info">
+									<div class="item__img">
+										<img src="/image/popular1.png" alt="" />
+									</div>
+									<div class="item__wrapper">
+										<h3 class="item__title">Серый шерстяной джемпер</h3>
+										<span class="item__price">2 000 руб.</span>
+									</div>
+								</div>
+								<a href="#" class="item__link"> Смотреть фотоальбом </a>
+							</div>
+							<div class="popular__item swiper-slide item">
+								<div class="item__info">
+									<div class="item__img">
+										<img src="/image/popular1.png" alt="" />
+									</div>
+									<div class="item__wrapper">
+										<h3 class="item__title">Серый шерстяной джемпер</h3>
+										<span class="item__price">2 000 руб.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="cards">
+				<div class="cards__container">
+					<div class="cards__wrapper">
+						<div class="cards__grid">
+							<div class="cards__card card">
+								<div class="card__img">
+									<img src="/image/cards1.png" alt="" />
+								</div>
+								<div class="card__info">
+									<h3 class="card__title">Серый шерстяной джемпер</h3>
+									<a href="#" class="card__btn btn--primary btn--big"
+										>Cмотреть</a
+									>
+								</div>
+							</div>
+							<div class="cards__card card">
+								<div class="card__img">
+									<img src="/image/cards2.png" alt="" />
+								</div>
+								<div class="card__info">
+									<h3 class="card__title">Серый шерстяной джемпер</h3>
+									<a href="#" class="card__btn btn--primary btn--big"
+										>Cмотреть</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="cards__footer">
+							<blockquote class="cards__blockquote">
+								WoolStreet — cтильная комфортная одежда для женщин на каждый
+								день. Мы делаем стильную одежду доступной для каждой женщины
+							</blockquote>
+							<span class="cards__dots"></span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="collection">
+				<div class="collection__container">
+					<div class="collection__wrapper">
+						<div class="collection__info">
+							<h2 class="collection__title">
+								-20% на старую коллекцию в наших магазинах
+							</h2>
+							<p class="collection__text">
+								Новая капсульная коллекция уже в наших магазинах
+							</p>
+						</div>
+						<a href="#" class="collection__btn btn--big btn--light"></a>
+					</div>
+					<div
+						class="collection__bg"
+						style="background-image: url(/image/collection.png)"
+					></div>
+				</div>
+			</section>
+			<section class="reviews">
+				<div class="reviews__container">
+					<div class="reviews__content">
+						<div class="reviews__head">
+							<h2 class="reviews__title">Отзывы наших клиенток</h2>
+							<div class="reviews__buttons">
+								<div class="swiper-reviews-prev">
+									<svg class="icon">
+										<use xlink:href="#arrowcircle"></use>
+									</svg>
+								</div>
+								<div class="swiper-reviews-next">
+									<svg class="icon">
+										<use xlink:href="#arrowcircle"></use>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper reviews__swiper">
+						<div class="swiper-wrapper reviews__wrapper">
+							<div class="swiper-slide reviews__slide item">
+								<div class="item__wrapper">
+									<div class="item__stars" data-rate="4">
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+									</div>
+									<div class="item__info">
+										<span class="item__title">Анна</span>
+										<p class="item__text">
+											Люблю этот магазин, теперь зашла на Новослободской,
+											территориально стало удобно туда заходить. Купила три
+											вещи, две из натурального хлопка, лёгкие, невесомые
+											удобные, третья также с большим составом натурального
+											материала, рекомендую, вещи и красивые, и удобные на ощупь
+											очень приятные, мягкие, гладкие.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide reviews__slide item">
+								<div class="item__wrapper">
+									<div class="item__stars" data-rate="4">
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+									</div>
+									<div class="item__info">
+										<span class="item__title">Анна</span>
+										<p class="item__text">
+											Люблю этот магазин, теперь зашла на Новослободской,
+											территориально стало удобно туда заходить. Купила три
+											вещи, две из натурального хлопка, лёгкие, невесомые
+											удобные, третья также с большим составом натурального
+											материала, рекомендую, вещи и красивые, и удобные на ощупь
+											очень приятные, мягкие, гладкие.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide reviews__slide item">
+								<div class="item__wrapper">
+									<div class="item__stars" data-rate="4">
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+										<svg class="icon">
+											<use xlink:href="#Star"></use>
+										</svg>
+									</div>
+									<div class="item__info">
+										<span class="item__title">Анна</span>
+										<p class="item__text">
+											Люблю этот магазин, теперь зашла на Новослободской,
+											территориально стало удобно туда заходить. Купила три
+											вещи, две из натурального хлопка, лёгкие, невесомые
+											удобные, третья также с большим составом натурального
+											материала, рекомендую, вещи и красивые, и удобные на ощупь
+											очень приятные, мягкие, гладкие.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="carousel">
+				<div class="carousel__container">
+					<div class="swiper carousel__swiper">
+						<div class="swiper-wrapper carousel__wrapper">
+							<div class="swiper-slide carousel__slide">Slide 1</div>
+							<div class="swiper-slide carousel__slide">Slide 2</div>
+							<div class="swiper-slide carousel__slide">Slide 3</div>
+						</div>
+						<div class="carousel__buttons">
+							<div class="swiper-carousel-prev">
+								<svg class="icon">
+									<use xlink:href="#arrowcircle"></use>
+								</svg>
+							</div>
+							<div class="swiper-carousel-next">
+								<svg class="icon">
+									<use xlink:href="#arrowcircle"></use>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<h2 class="carousel__suntitle">наши ценности</h2>
+					<div class="carousel__info">
+						<div class="carousel__logo">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="424"
+								height="44"
+								viewBox="0 0 424 44"
+								fill="none"
+							>
+								<path
+									d="M248.444 13.7574H259.444V42.8574H266.117V13.7574H276.553V12.1882H248.444V13.7574ZM214.087 10.4208C214.087 6.23104 219.191 2.04125 226.291 2.04125C233.391 2.04125 236.225 3.74764 239.211 7.08423L242.121 5.88062C239.698 3.18392 235.585 0.350098 226.078 0.350098C214.575 0.350098 206.774 5.45402 206.774 12.3405C206.774 25.9611 236.804 20.3544 236.804 33.2133C236.804 38.3934 231.41 41.9433 222.817 41.9433C216.997 41.9433 212.594 39.4599 210.111 36.3366L206.637 37.8297C209.898 41.5929 215.504 44.0001 224.173 44.0001C235.889 44.0001 244.543 38.3172 244.543 31.446C244.543 17.5359 214.103 23.1426 214.103 10.4361L214.087 10.4208ZM315.206 21.0553C315.206 15.1591 308.396 12.2643 295.903 12.2643H284.613V42.8574H291.286V14.1688H296.893C304.633 14.1688 308.533 16.6522 308.533 20.4154C308.533 22.975 307.969 26.8753 296.893 26.8753H293.693L308.883 42.8422H316.333L302.362 28.4293C308.822 28.1398 315.206 25.9459 315.206 21.04V21.0553ZM395.041 12.1882V13.7574H406.041V42.8574H412.714V13.7574H423.15V12.1882H395.041ZM324.576 16.9417V38.9419C324.576 43.7716 322.946 42.8422 333.443 42.8422H352.107V41.2729H334.083C330.609 41.2729 331.249 41.6995 331.249 38.8657V27.6523H348.283V26.083H331.249V16.4998C331.249 13.3004 330.259 13.8031 335.866 13.8031H352.472V12.2491H332.742C323.022 12.2491 324.576 11.3197 324.576 16.9264V16.9417ZM361.263 16.9417V38.9419C361.263 43.7716 359.633 42.8422 370.13 42.8422H388.794V41.2729H370.77C367.297 41.2729 367.936 41.6995 367.936 38.8657V27.6523H384.97V26.083H367.936V16.4998C367.936 13.3004 366.946 13.8031 372.553 13.8031H389.16V12.2491H369.43C359.709 12.2491 361.263 11.3197 361.263 16.9264V16.9417ZM186.115 38.241V12.1272H179.442V39.0942C179.442 43.4973 178.512 42.8574 185.612 42.8574H200.71V41.2882H190.305C185.414 41.2882 186.115 41.8519 186.115 38.241ZM77.2107 1.47753L56.1399 34.4778L35.846 1.47753H28.1825L38.9693 18.2976L29.249 33.7008L8.65048 1.47753H0.849854L26.8266 43.9849H27.0399L40.95 21.6342L54.144 43.9849H54.3573L81.1872 1.47753H77.2107ZM99.668 42.0042C91.5017 42.0042 84.7676 37.0374 84.7676 27.5304C84.7676 18.0234 91.5017 13.1175 99.668 13.1175C107.834 13.1175 114.507 18.0843 114.507 27.5304C114.507 36.9765 107.697 42.0042 99.668 42.0042ZM99.668 11.5483C85.4074 11.5483 78.0944 19.1356 78.0944 27.5152C78.0944 35.8948 87.6776 43.5583 99.668 43.5583C113.868 43.5583 121.165 35.9709 121.165 27.5152C121.165 19.0594 111.582 11.5483 99.668 11.5483ZM147.995 42.0042C139.829 42.0042 133.095 37.0374 133.095 27.5304C133.095 18.0234 139.829 13.1175 147.995 13.1175C156.162 13.1175 162.835 18.0843 162.835 27.5304C162.835 36.9765 156.024 42.0042 147.995 42.0042ZM147.995 11.5483C133.735 11.5483 126.422 19.1356 126.422 27.5152C126.422 35.8948 136.005 43.5583 147.995 43.5583C162.195 43.5583 169.508 35.9709 169.508 27.5152C169.508 19.0594 159.925 11.5483 147.995 11.5483Z"
+									fill="white"
+								/>
+							</svg>
+						</div>
+						<p class="carousel__text">
+							Комфортная одежда для женщин на каждый день. Мы делаем стильную
+							одежду доступной для каждой женщины
+						</p>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script type="module" src="/src/js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+@use './reset' as *;
+@use './fonts' as *;
+@use './common' as *;
+
+button {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+body {
+	color: var(--3);
+	background-color: var(--2);
+	font-size: 1rem;
+}
