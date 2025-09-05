@@ -1,4 +1,14 @@
-<!-- 
+Установить bun: npm install -g bun
+
+Для сборки: bun run build
+Запуск сборки: bun run preview
+Дев режим: bun run dev
+
+
+
+
+Sprite:
+
 <svg class="icon">
   <use xlink:href="#arrowcircle"></use>
 </svg>
@@ -26,4 +36,3 @@
 <svg class="icon">
   <use xlink:href="#arrow"></use>
 </svg>
--->
