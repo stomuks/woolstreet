@@ -14,7 +14,7 @@ export default defineConfig({
 					if (assetInfo.name && assetInfo.name.endsWith('.css')) {
 						return 'css/[name][extname]'
 					}
-					return 'assets/[name][extname]' // сюда будут падать картинки, шрифты и т.п.
+					return 'assets/[name][extname]'
 				}
 			}
 		},
