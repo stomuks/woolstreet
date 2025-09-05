@@ -1,52 +1,7 @@
 @use './reset' as *;
 @use './fonts' as *;
 @use './common' as *;
-
-.header {
-	display: flex;
-	&__banner {
-	}
-
-	&__wrapper {
-	}
-
-	&__container {
-	}
-
-	&__content {
-	}
-
-	&__logo {
-	}
-
-	&__link {
-	}
-
-	&__menu {
-	}
-
-	&__list {
-	}
-
-	&__item {
-	}
-
-	&__tools {
-	}
-
-	&__links {
-	}
-}
-.banner {
-	&__container {
-	}
-
-	&__wrapper {
-	}
-
-	&__text {
-	}
-
-	&__link {
-	}
-}
+@use './pc.scss' as *;
+@use './tablet.scss' as *;
+@use './mobile.scss' as *;
+@use './micro.scss' as *;
