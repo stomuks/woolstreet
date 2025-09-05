@@ -10,29 +10,29 @@
 Sprite:
 
 <svg class="icon">
-  <use xlink:href="#arrowcircle"></use>
+  <use xlink:href=/sprite.svg#arrowcircle"></use>
 </svg>
 <svg class="icon">
-  <use xlink:href="#arrowleft"></use>
+  <use xlink:href=/sprite.svg#arrowleft"></use>
 </svg>
 <svg class="icon">
-  <use xlink:href="#arrowright"></use>
+  <use xlink:href=/sprite.svg#arrowright"></use>
 </svg>
 <svg class="icon">
-  <use xlink:href="#logosvg"></use>
+  <use xlink:href=/sprite.svg#logosvg"></use>
 </svg>
 <svg class="icon">
-  <use xlink:href="#magnifying-glass"></use>
+  <use xlink:href=/sprite.svg#magnifying-glass"></use>
 </svg>
 <svg class="icon">
-  <use xlink:href="#Star"></use>
+  <use xlink:href=/sprite.svg#Star"></use>
 </svg>
 <svg class="icon">
-  <use xlink:href="#vk"></use>
+  <use xlink:href=/sprite.svg#vk"></use>
 </svg> 
 <svg class="icon">
-  <use xlink:href="#logo"></use>
+  <use xlink:href=/sprite.svg#logo"></use>
 </svg> 
 <svg class="icon">
-  <use xlink:href="#arrow"></use>
+  <use xlink:href=/sprite.svg#arrow"></use>
 </svg>
