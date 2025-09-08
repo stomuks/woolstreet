@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 520px) {
 	.hero {
 		&__content {
 			padding-bottom: 30px;
@@ -325,6 +325,81 @@
 				font-size: 14px;
 				font-weight: 500;
 				line-height: 140%;
+			}
+		}
+	}
+
+	.footer {
+		padding: 60px 0 30px 0;
+
+		&__wrapper {
+			gap: 60px;
+		}
+
+		&__inputs {
+			flex-direction: column;
+		}
+
+		&__input {
+			min-height: 54px;
+		}
+
+		&__grid {
+			gap: 10px;
+		}
+
+		&__content {
+			gap: 30px;
+		}
+
+		&__form {
+			gap: 24px;
+		}
+
+		&__column {
+			gap: 24px;
+
+			&:nth-child(1) {
+				order: 1;
+			}
+
+			&:nth-child(2) {
+				order: 3;
+			}
+
+			&:nth-child(3) {
+				order: 2;
+			}
+		}
+
+		.foo {
+			gap: 0;
+			margin-top: -20px;
+
+			&__politics {
+				margin-top: 30px;
+				gap: 4px;
+			}
+
+			&__form-agree {
+				color: var(--3, #000);
+				font-size: 14px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 140%; /* 19.6px */
+			}
+
+			&__politic {
+				font-size: 14px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 140%; /* 19.6px */
+			}
+
+			&__copy {
+				margin-top: 4px;
+				text-align: left;
+				max-width: 254px;
 			}
 		}
 	}

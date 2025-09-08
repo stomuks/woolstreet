@@ -1,4 +1,4 @@
-@media (max-width: 746px) {
+@media (max-width: 745px) {
 	.hero {
 		&__content {
 			padding-bottom: 90px;
@@ -161,6 +161,58 @@
 
 		&__block {
 			gap: 60px;
+		}
+	}
+
+	.footer {
+		&__wrapper {
+			gap: 120px;
+		}
+
+		&__grid {
+			gap: 16px;
+		}
+
+		&__title {
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 140%;
+			text-transform: uppercase;
+		}
+
+		&__form {
+			width: 100%;
+			align-items: flex-start;
+		}
+
+		&__inputs {
+			width: 100%;
+		}
+
+		&__input {
+			width: 100%;
+		}
+
+		.foo {
+			flex-wrap: wrap;
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 10px;
+
+			&__form-agree {
+				order: 1;
+			}
+
+			&__politics {
+				order: 2;
+			}
+
+			&__copy {
+				order: 3;
+				width: 100%;
+				text-align: right;
+			}
 		}
 	}
 }
