@@ -231,4 +231,11 @@
 			grid-template-columns: repeat(2, 1fr);
 		}
 	}
+
+	.footer {
+		&__title {
+			font-size: 16px;
+			line-height: 140%;
+		}
+	}
 }

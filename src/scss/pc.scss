@@ -1105,12 +1105,12 @@
 	}
 
 	&__grid {
-		display: flex;
-		justify-content: space-between;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
 		gap: 16px;
 
 		@media (max-width: 621px) {
-			flex-direction: column;
+			grid-template-columns: 1fr;
 		}
 	}
 
@@ -1118,6 +1118,16 @@
 		display: flex;
 		flex-direction: column;
 		gap: 30px;
+
+		@media (min-width: 622px) {
+			&:nth-child(2) {
+				margin: 0 auto;
+			}
+
+			&:nth-child(3) {
+				margin-left: auto;
+			}
+		}
 	}
 
 	&__title {
