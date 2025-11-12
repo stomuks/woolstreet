@@ -126,6 +126,27 @@
 		}
 	}
 
+	.carousel-2 {
+		&__container {
+			padding: 0;
+		}
+
+		&__block {
+			min-height: 769px;
+			padding: 60px 30px;
+		}
+
+		&__text {
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 140%;
+		}
+
+		&__buttons {
+			padding-inline: 15px;
+		}
+	}
+
 	.article {
 		padding-block: 60px;
 

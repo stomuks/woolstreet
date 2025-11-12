@@ -196,6 +196,39 @@
 		}
 	}
 
+	.carousel-2 {
+		&__block {
+			min-height: 560px;
+			padding-inline: 15px;
+			padding-block: 30px;
+		}
+
+		&__swiper {
+			padding-top: 40px;
+		}
+
+		&__title {
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 140%;
+		}
+
+		&__buttons-wrapper {
+			padding-inline: 0;
+		}
+
+		&__text {
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 140%;
+		}
+
+		&__logo {
+			width: 314px;
+			max-width: 70%;
+		}
+	}
+
 	.article {
 		&_wrapper {
 			gap: 24px;

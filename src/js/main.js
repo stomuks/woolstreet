@@ -23,6 +23,17 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 	})
 
+	const carousel2Swiper = new Swiper('.carousel-2__swiper', {
+		modules: [Navigation],
+		slidesPerView: 1,
+		loop: true,
+		autoHeight: false,
+		navigation: {
+			nextEl: '.swiper-carousel-2-next',
+			prevEl: '.swiper-carousel-2-prev'
+		}
+	})
+
 	const popularSwiper = new Swiper('.popular__swiper', {
 		modules: [Navigation],
 		loop: false,
