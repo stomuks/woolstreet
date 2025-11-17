@@ -62,9 +62,35 @@ body {
 .btn--light {
 	color: var(--2);
 	background-color: var(--1);
+	transition: all 0.3s ease 0s;
+
+	&:hover {
+		color: var(--1);
+		background-color: var(--2);
+	}
 }
 
 .btn--primary {
 	color: var(--1);
 	background-color: var(--2);
+	transition: all 0.3s ease 0s;
+	border: 1px solid var(--2);
+
+	&:hover {
+		color: var(--2);
+		background-color: var(--1);
+	}
+
+	&.btn--icon {
+		.icon {
+			fill: var(--1);
+			transition: all 0.3s ease 0s;
+		}
+
+		&:hover {
+			.icon {
+				fill: var(--2);
+			}
+		}
+	}
 }
