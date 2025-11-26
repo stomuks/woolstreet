@@ -34,7 +34,7 @@
 
 		&__row {
 			flex-direction: column;
-			padding-block: 60px;
+			padding-block: 30px;
 			gap: 16px;
 		}
 
@@ -78,7 +78,7 @@
 			padding-inline: 15px;
 			padding-block: 30px;
 			width: 100%;
-			min-height: 560px;
+			min-height: 400px;
 			aspect-ratio: auto;
 
 			&__title {
@@ -345,6 +345,7 @@
 		.item {
 			&__img {
 				aspect-ratio: 6/5;
+				max-height: 250px;
 			}
 
 			&__title {
