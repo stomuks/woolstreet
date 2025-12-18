@@ -6,7 +6,10 @@ export default defineConfig({
 		polyfillModulePreload: false,
 		outDir: 'dist',
 		rollupOptions: {
-			input: path.resolve(__dirname, 'index.html'),
+			input: {
+				main: path.resolve(__dirname, 'index.html'),
+				article: path.resolve(__dirname, 'article.html')
+			},
 			output: {
 				entryFileNames: 'js/[name].js',
 				chunkFileNames: 'js/[name].js',

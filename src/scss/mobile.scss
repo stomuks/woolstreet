@@ -5,6 +5,32 @@
 		}
 	}
 
+	.loyalty {
+		&__wrapper {
+			padding: 30px 20px;
+			gap: 24px;
+		}
+
+		ul {
+			gap: 12px;
+		}
+
+		.bold-20 {
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 140%; /* 22.4px */
+			text-transform: uppercase;
+		}
+
+		.medium-20 {
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 140%; /* 22.4px */
+		}
+	}
+
 	.popular {
 		padding-bottom: 60px;
 	}

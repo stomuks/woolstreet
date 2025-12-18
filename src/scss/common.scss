@@ -94,3 +94,53 @@ body {
 		}
 	}
 }
+
+.pt-80 {
+	padding-top: 80px;
+
+	@media (max-width: 1024px) {
+		padding-top: 40px;
+	}
+
+	@media (max-width: 745px) {
+		padding-top: 24px;
+	}
+}
+.pb-80 {
+	padding-bottom: 80px;
+
+	@media (max-width: 1024px) {
+		padding-bottom: 40px;
+	}
+
+	@media (max-width: 745px) {
+		padding-bottom: 24px;
+	}
+}
+.bold-20 {
+	color: var(--3, #000);
+	font-feature-settings: 'liga' off, 'clig' off;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 22px; /* 110% */
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.medium-20 {
+	color: var(--3, #000);
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 140%; /* 28px */
+}
+.grid-2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.gap-40 {
+	gap: 40px;
+}

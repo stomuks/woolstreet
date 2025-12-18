@@ -188,6 +188,61 @@
 		}
 	}
 
+	.hero-2 {
+		min-height: 627px;
+		padding-block: 30px;
+
+		&__wrapper {
+			gap: 16px;
+		}
+
+		&__content {
+			gap: 16px;
+		}
+
+		&__title {
+			color: var(--1, #fff);
+
+			/* Large/title 3 */
+			font-family: Montserrat;
+			font-size: 30px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 36px; /* 120% */
+			letter-spacing: -0.9px;
+			max-width: 560px;
+		}
+
+		&__items {
+			padding: 12px;
+			gap: 12px;
+		}
+
+		&__item {
+			span {
+				color: #fff;
+
+				/* Main/14 text */
+				font-family: Montserrat;
+				font-size: 14px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 140%; /* 19.6px */
+			}
+		}
+
+		&__icon {
+			width: 20px;
+			height: 20px;
+		}
+	}
+
+	.loyalty {
+		.grid-2 {
+			grid-template-columns: 1fr;
+		}
+	}
+
 	.popular {
 		&__row {
 			gap: 37px;
